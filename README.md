@@ -12,7 +12,43 @@ Multi-class classification of tweet sentiments into five categories:
 
 Dataset: [Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification)
 
-<pre lang="md"> ## 📁 Project Structure ``` project-root/ ├── notebooks/ │ ├── roberta_full_code.ipynb # Fine-tuning + compression using full PyTorch code │ ├── roberta_hf_trainer.ipynb # Fine-tuning + compression using HuggingFace Trainer API │ ├── electra_full_code.ipynb # (to be added) │ └── electra_hf_trainer.ipynb # (to be added) ├── data/ │ ├── train.csv # Cleaned training set │ └── test.csv # Cleaned test set ├── checkpoints/ │ └── roberta_full/ │ ├── fp32/ # Full-precision model │ ├── fp16/ # Mixed precision (for GPU inference) │ ├── pruned/ # Unstructured pruning │ └── quantized/ # Quantized (for CPU inference) ├── paper/ │ └── final_paper.pdf ├── README.md └── requirements.txt # (optional) ``` </pre>
+## Project Structure
+
+- notebooks/
+
+    roberta_full_code.ipynb – Fine-tuning + compression using full PyTorch code
+
+    roberta_hf_trainer.ipynb – Fine-tuning + compression using HuggingFace Trainer API
+
+    electra_full_code.ipynb – (to be added)
+
+    electra_hf_trainer.ipynb – (to be added)
+
+- data/
+
+    train.csv – Cleaned training set
+
+    test.csv – Cleaned test set
+
+    checkpoints/
+
+    roberta_full/
+
+    fp32/ – Full-precision model
+
+    fp16/ – Mixed precision (for GPU inference)
+
+    pruned/ – Unstructured pruning
+
+    quantized/ – Quantized (for CPU inference)
+
+- paper/
+
+    final_paper.pdf
+
+- README.md
+
+- requirements.txt (optional)
 
 
 ## 🧪 Models and Techniques
