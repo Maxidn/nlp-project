@@ -98,5 +98,4 @@ The model is evaluated using:
 - Maximiliano Niemetz
 - Chen Ben Halfi
 
----
-For questions or issues, please open an issue or contact the authors.
+
