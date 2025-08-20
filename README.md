@@ -1,6 +1,6 @@
 # Tweet Sentiment Classification with RoBERTa and ELECTRA
 
-This project fine-tunes two transformer-based models — RoBERTa and ELECTRA — on a COVID-19 tweet sentiment classification task. It also applies compression techniques (quantization, pruning, FP16) to reduce model size and improve inference efficiency.
+This project fine-tunes two transformer-based models, RoBERTa and ELECTRA, on a COVID-19 tweet sentiment classification task. It also applies compression techniques (quantization, pruning, FP16) to reduce model size and improve inference efficiency.
 
 ## 🧠 Task
 Multi-class classification of tweet sentiments into five categories:
@@ -48,7 +48,7 @@ Dataset: [Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/da
 
 - README.md
 
-- requirements.txt (optional)
+- requirements.txt
 
 
 ## 🧪 Models and Techniques
@@ -82,7 +82,7 @@ The model is evaluated using:
 ## 💾 Files Needed in Google Drive
 
 - `Corona_NLP_train_clean.csv`, `Corona_NLP_test_clean.csv`
-- Folder with best fine-tuned RoBERTa model
+- Folder with best fine-tuned RoBERTa and Electra models
 - Folder with compressed models:
   - `/fp16/`, `/pruned/`, `/quantized/` with saved models
   - `load_quantized.py` is included to help re-load quantized models
@@ -96,6 +96,6 @@ The model is evaluated using:
 
 ## 👥 Authors
 - Maximiliano Niemetz
-- Chen Ben Halfi
+- Chen Halfi
 
 
