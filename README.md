@@ -15,6 +15,8 @@ Dataset: [Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/da
 ## Project Structure
 
 - notebooks/
+  
+    DL_project_part1.ipynb - EDA & Data Cleaning
 
     roberta_full_code.ipynb – Fine-tuning + compression using full PyTorch code
 
