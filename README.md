@@ -111,7 +111,10 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
   - `load_quantized.py` is included to help re-load quantized models
 
 ## WanDB Reports
-- Electra HF _ hf-electra – Weights & Biases- The final study of Electra With HF
+- Electra HF _ hf-electra – Weights & Biases.pdf
+- Electra Full Code – Weights & Biases.pdf
+- hfrobertatwitter.pdf
+- robertatwitterfullcode.pdf
 
 ## Notes
 
