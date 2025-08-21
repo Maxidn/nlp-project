@@ -26,11 +26,13 @@ Dataset: [Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/da
 
     electra_hf_trainer.ipynb – (to be added)
 
+  in order to run the notebook corrctly please change the paths for your right locations
+
 - data/
 
-    train.csv – Cleaned training set
+    Corona_NLP_train_clean.csv – Cleaned training set
 
-    test.csv – Cleaned test set
+    Corona_NLP_test_clean.csv – Cleaned test set
 
     checkpoints/
 
@@ -74,10 +76,13 @@ The model is evaluated using:
 
 > 💡 **Recommended**: Open notebooks in Google Colab
 
-1. Replace the W&B API key (`wandb.login(...)`) with your own  
-2. Mount your Google Drive (`drive.mount(...)`) where:
+1. Replace the W&B API key (`wandb.login(...)`) with your own
+2. 
+3. Mount your Google Drive (`drive.mount(...)`) where:
    - Datasets are located (`Corona_NLP_train_clean.csv`, `Corona_NLP_test_clean.csv`)
    - Trained models and compression results are saved
+4. files location please change the paths for your right locations
+
 
 3. Run the cells as-is
 
