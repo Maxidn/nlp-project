@@ -111,13 +111,12 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
   - `load_quantized.py` is included to help re-load quantized models
 
 ## WanDB Reports
-- Electra HF _ hf-electra – Weights & Biases.pdf
-- Electra Full Code – Weights & Biases.pdf
-- hfrobertatwitter.pdf
-- robertatwitterfullcode.pdf
+This section contains two different kinds of files: pdf files showing the graphs that we downloaded from Wandb, and csv files that contain the results for the different studies that we ran for each model
 
-In addition to the discussed methods, we explored numerous other hyperparameter configurations and model architectures.
-All the trails are in CSV Files the WandDB Reoorts Directory.
+- pdf files showing the graphs that we downloaded from Wandb
+- csv files that contain the results for the different studies that we ran for each model
+
+All the files indicate if they belong to the full code or the Hugging Face code of each model.
 
 
 ## Notes
