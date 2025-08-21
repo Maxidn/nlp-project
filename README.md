@@ -54,6 +54,14 @@ Dataset: [Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/da
 
 - requirements.txt
 
+- Wandb Reports/
+  
+    Contains graphs and csv files
+
+- Saved models/
+
+    Link to Google Drive
+
 
 ## Models and Techniques:
 
