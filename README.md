@@ -116,7 +116,7 @@ This section contains two different kinds of files: pdf files showing the graphs
 - pdf files showing the graphs that we downloaded from Wandb
 - csv files that contain the results for the different studies that we ran for each model
 
-All the files indicate if they belong to the full code or the Hugging Face code of each model.
+All the files indicate if they belong to the full code or the Hugging Face code of each model. Since we ran more than one study, there are more than one .csv for each model.
 
 
 ## Notes
