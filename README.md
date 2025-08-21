@@ -84,7 +84,7 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
 
 
 ### COVID-19 Tweet Sentiment — Part 2
-> There are 4 notebooks for each model
+>The repository contains four notebooks (one for each model). Although they reuse common cells, we keep them separate for ease of use and standalone runs
 > **Recommenץded**: Open notebooks in Google Colab
 
 1. Replace the W&B API key (`wandb.login(...)`) with your own
@@ -98,7 +98,7 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
 
 3. Run the cells as-is
 
-## 💾 Files Needed in Google Drive
+## Files Needed in Google Drive
 
 - `Corona_NLP_train_clean.csv`, `Corona_NLP_test_clean.csv`
 - Folder with best fine-tuned RoBERTa and Electra models
