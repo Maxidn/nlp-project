@@ -22,11 +22,11 @@ Dataset: [Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/da
 
     roberta_hf_trainer.ipynb – Fine-tuning + compression using HuggingFace Trainer API
 
-    electra_full_code.ipynb – (to be added)
+    electra_full_code.ipynb
 
-    electra_hf_trainer.ipynb – (to be added)
+    electra_hf_trainer.ipynb
 
-  in order to run the notebook corrctly please change the paths for your right locations
+  in order to run the notebook correctly please change the paths for your right locations
 
 - data/
 
@@ -65,7 +65,7 @@ Dataset: [Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/da
 
 ## Models and Techniques:
 
-- **RoBERTa (cardiffnlp/twitter-roberta-base)** fine-tuned using:
+- **RoBERTa (cardiffnlp/twitter-roberta-base) and Electra-Base** fine-tuned using:
   - Full PyTorch training loop (manual scheduler, early stopping, Optuna tuning)
   - HuggingFace Trainer API
 
