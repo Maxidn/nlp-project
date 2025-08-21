@@ -89,11 +89,15 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
 
 1. Replace the W&B API key (`wandb.login(...)`) with your own
 <img width="755" height="145" alt="image" src="https://github.com/user-attachments/assets/30e14f62-9e17-451d-846e-67a5fe950655" />
+
+
 2. Mount your Google Drive (`drive.mount(...)`) where:
+   
   <img width="480" height="172" alt="image" src="https://github.com/user-attachments/assets/615d8bd9-7104-4fd7-9d7c-d9e2279581e2" />
+  
    - Datasets are located (`Corona_NLP_train_clean.csv`, `Corona_NLP_test_clean.csv`)
    - Trained models and compression results are saved
-3. files location please change the paths for your right locations
+4. files location please change the paths for your right locations
 
 
 3. Run the cells as-is
