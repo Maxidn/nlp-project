@@ -85,8 +85,8 @@ The model is evaluated using:
 A reproducible notebook for exploring and preparing the COVID-19 tweets dataset and cleaning.
 
 1. open "DL_project_part1.ipynb" in jupyter notebook.
-2. make sure you have the original Kaggle data (CSV files) ([Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification))
- and "locations_with_country.xlsx" we add in the data directory
+2. make sure you have the original Kaggle data ([(Kaggle)](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification))
+ and "locations_with_country.xlsx" we add in the data directory.
 3. IMPORTANT: update the paths below to match where you saved the data on your computer:
 <img width="449" height="67" alt="image" src="https://github.com/user-attachments/assets/029a6327-8c75-483d-af59-7632905fc1b9" />
 <img width="591" height="49" alt="image" src="https://github.com/user-attachments/assets/9a41c060-0350-4859-9190-26c44d04b2a5" />
