@@ -110,7 +110,7 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
   - `/fp16/`, `/pruned/`, `/quantized/` with saved models
   - `load_quantized.py` is included to help re-load quantized models
 
-## 📎 Notes
+## Notes
 
 - Outputs are visible in notebooks for review
 - `wandb` tracking logs hyperparameters, metrics, and trials
@@ -121,7 +121,7 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
 - All saved and compressed model are saved in:
 https://drive.google.com/drive/folders/1VX758gpc9mEKS1IQiGh1T4XWGuQ_2ALM?usp=sharing
 
-## 👥 Authors
+##  Authors
 - Maximiliano Niemetz
 - Chen Halfi
 
