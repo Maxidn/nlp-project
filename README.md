@@ -110,6 +110,9 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
   - `/fp16/`, `/pruned/`, `/quantized/` with saved models
   - `load_quantized.py` is included to help re-load quantized models
 
+## WanDB Reports
+- Electra HF _ hf-electra – Weights & Biases- The final study of Electra With HF
+
 ## Notes
 
 - Outputs are visible in notebooks for review
