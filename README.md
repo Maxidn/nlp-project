@@ -115,7 +115,11 @@ A reproducible notebook for exploring and preparing the COVID-19 tweets dataset 
 - Outputs are visible in notebooks for review
 - `wandb` tracking logs hyperparameters, metrics, and trials
 - Optuna is used for tuning learning rate, dropout, batch size, etc.
-- The same architecture is applied to ELECTRA (coming soon)
+- A similar architecture is applied to ELECTRA
+
+## Saved models
+- All saved and compressed model are saved in:
+https://drive.google.com/drive/folders/1VX758gpc9mEKS1IQiGh1T4XWGuQ_2ALM?usp=sharing
 
 ## 👥 Authors
 - Maximiliano Niemetz
