@@ -34,7 +34,7 @@ Dataset: [Corona NLP COVID-19 Tweets Dataset (Kaggle)](https://www.kaggle.com/da
 
     Corona_NLP_test_clean.csv – Cleaned test set
 
-    checkpoints/
+- checkpoints/
 
     roberta_full/
 
@@ -73,8 +73,16 @@ The model is evaluated using:
 - Per-class performance reports
 
 ## 📍 How to Run
+> DL_project_part1.ipynb:
+1. open in jupyter notebook
+2. make sure you have the original data from kaggel and "locations_with_country.xlsx" we add in the data directory
+3. change tha file paths:
+<img width="449" height="67" alt="image" src="https://github.com/user-attachments/assets/029a6327-8c75-483d-af59-7632905fc1b9" />
+<img width="591" height="49" alt="image" src="https://github.com/user-attachments/assets/9a41c060-0350-4859-9190-26c44d04b2a5" />
 
-> 💡 **Recommended**: Open notebooks in Google Colab
+
+
+> 💡 **Recommenץded**: Open notebooks in Google Colab
 
 1. Replace the W&B API key (`wandb.login(...)`) with your own
 2. 
